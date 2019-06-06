@@ -74,8 +74,10 @@ New collaterals:
   + risk modelling
   + dd analysis
     
-
-
+**Work to be done**
+```
+- how to calculate a PUT option on ETH
+```
 
 
 
