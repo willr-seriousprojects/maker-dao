@@ -92,8 +92,6 @@ Governance (Richard):
 
 'Collateral Risk Lifecycle' presentation
 
-[image here]
-
 ![](https://github.com/willr-seriousprojects/maker-dao/blob/master/makerDAO%20meetings/Screen%20Shot%202019-06-14%20at%204.30.23%20AM.png)
 
 - Onboarding: 
