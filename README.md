@@ -94,17 +94,19 @@ Governance (Richard):
 
 [image here]
 
+![](https://github.com/willr-seriousprojects/maker-dao/blob/master/makerDAO%20meetings/Screen%20Shot%202019-06-14%20at%204.30.23%20AM.png)
+
 - Onboarding: 
-technical audit (smart contracts, connectors, adaptors )
-risk audit (filter/prioritise assets)
-counterparty audit 
-filter and sort
-governance implications
+  + technical audit (smart contracts, connectors, adaptors )
+  + risk audit (filter/prioritise assets)
+  + counterparty audit 
+  + filter and sort
+  + governance implications
 
 - This week: Due diligence: 
 1. Goal
-qualitative: find risk not immediately present in the collateral - qualitative understanding
-scoring: convert qualitative into numeric score 
+  + qualitative: find risk not immediately present in the collateral - qualitative understanding
+  + scoring: convert qualitative into numeric score 
 
 2. Classification
 + bearer assets 
@@ -117,7 +119,7 @@ scoring: convert qualitative into numeric score
 ```
 Understanding of tokens to be done
 ```
-Can be either or both: 
+Can be either or both bearer/registered: 
 - base layer tokens (eth, btc)
 - utility tokens 
 - work tokens - get paid to do some work
@@ -157,9 +159,9 @@ All risks will be input into a model --> output probability score
 - Trader's instinct
 
 5. Scoring framework
-create risk ratings framework and apply to collateral
++ create risk ratings framework and apply to collateral
 
-example - ether
+Examaple - ether
 
 - onboarding collateral application
   + technical audit
@@ -168,7 +170,7 @@ example - ether
 - risk analysis
 - scoring framework -> gets transfered to the quantitative model
 
-[image]
+![](https://github.com/willr-seriousprojects/maker-dao/blob/master/makerDAO%20meetings/Screen%20Shot%202019-06-14%20at%204.58.53%20AM.png)
 
 6. Philosophy 
 - conservativism
