@@ -6,6 +6,7 @@
 - [Meeting 2019-05-31](#risk-meeting-2019-05-31)
 - [Meeting 2019-06-07](#risk-meeting-2019-06-07)
 - [Meeting 2019-06-14](#risk-meeting-2019-06-14)
+- [Meeting 2019-06-20](#risk-meeting-2019-06-20)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -190,8 +191,138 @@ Examaple - ether
 
 - VaR vs DSR
 
+<b name="risk-meeting-2019-06-20" />
 
-Inventory (Joseph Quintilian)
+### Meeting notes 2019-06-20
+
+Governance Segment (Richard Brown)
+- Results of the Poll
+- Testing the limits of the SF
+- Skipping the next SF poll, polling for better polls?
+
+#### Risk Segment (Vishesh Choudry)
+Monetary Policy:
+- Dai price. Decreased volatility, with slight drift down, despite eth price comming up. 
+```
+Question: under what conditions does ETH affects DAI?
+```
+- Dai supply. Slight going up. A few cdps/refinancing back to maker from secondary lending.
+- Age of debt. Staddy version.
+- Collateral ratio. Previous deleveraging behaviour has been balanced with a slight elevated curve.
+- Distribution Dai price. Significant amount of Dai below $1 
+- Secondary lending. Borrow-supply has increased long term. But now has been going steddy. Most going to Maker. Re: SF at 16.5% seems to be at an appropriate level. 
+
+
+#### Collateral Risk (Cyrus Younessi)
+'Quantitative Modeling' presentation
+
+Recap from last week
+- goal: gather all relavant info and turn into risk rating
+
+[reference to previous week]
+
+Agenda: quantitative analysis outline
+
+[image]
+
+1. Goals
+Philosophical
+- Dai becomes world currency
+- Risk support that mission
+
+Operational goal
+- define what risk param represent
+- build scientific models for these param
+- assess weakness,vulnerabilities of the models
+- tie decentralised governance and risk into models
+
+2. Strategy
+
+[image]
+
+- Modular approach
+- Academic framework -> Pragmatic
+  + start with academic (ideal) framework and work through problems
+  + Use of best practices
+  
+- Start
++ simple model with assumptions
++ conservative liquidity analysis/
++ first analysis with Eth
+
+3. Risk model
+
+Inputs [image]
+- Collateral application
+- Trading profile
+  + Collet trade history
+  + Curate wash trading
+- Historical cdp distribution
+
+Outputs [image]
+- Preliminary outputs
+  + Liquidity analysis ("slippage")
+  + Collateral risk premium
+- Secondary outputs
+  + Correlations
+- Ultimate
+  + 
+  
+4. Building models
+
+CDPs [example on traditional loans]
+
+Focus: 
+- Default risk/ credit risk
+
+Default risk (credit risk)
+
+- start with loss distributions -> mean of distribution
+- expected loss 
+  + exposure amount (EA)
+  + probability of default (PD)
+  + Loss given default (LGD)
+- applies to all collateral types
+ ```
+ define default: when cdp is liquidated
+ ```
+
+Expected Loss [image]
+
+example
+[image]
+
+Goal: quantify expected amount you get back from loan. And how to estimate risk premium from that expected default. 
+
+How to calculate PD and LGD?
+- Reputation used in traditional lending 
+  + credit scores, employment etc
+  + backaward looking 
+  + forward looking
+- desincentives to default (credit score penalty and **maker cdp**)
+
+Collateral [image]
+- two ways loan bust: non payment or collateral values falls 
+```
+Focus on collateral
+```
+
+Types of debt [image]
+- Unsecured
+- Secured
+**- Non-recourse (CDPs)**
+
+Collateral only model
+- update PD and LGD definitions
+- no scheduled term, payments
+- PD = 
+- LGD = expected liquidation value of collateral through recourse (**liquidation ratio**)
+
+
+#### Weekly Narrative (Matthew V Rabinowitz)
+
+
+
 
 
 
