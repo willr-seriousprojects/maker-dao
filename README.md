@@ -7,6 +7,8 @@
 - [Meeting 2019-06-07](#risk-meeting-2019-06-07)
 - [Meeting 2019-06-14](#risk-meeting-2019-06-14)
 - [Meeting 2019-06-20](#risk-meeting-2019-06-20)
+
+- [Meeting 2019-08-23](#risk-meeting-2019-08-23)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -321,7 +323,64 @@ Collateral only model
 
 #### Weekly Narrative (Matthew V Rabinowitz)
 
+<b name="risk-meeting-2019-08-23" />
 
+### Meeting notes 2019-08-23
+
+Governance Segment (Richard Brown)
+- Risk team mandate
+https://forum.makerdao.com/t/mandate-interim-governance-facilitators/264
+
+LongForWisdom:
+
+#### Risk Segment (Cyrus Younesssi)
+Will review and discuss the Risk Teams Mandate
+https://forum.makerdao.com/t/mandate-risk-teams/282
+https://medium.com/makerdao/makerdao-governance-risk-framework-38625f514101
+
+- Early days: "decentralised risk function" 
+
+How risk teams will operate:
+
+Evaluation of risk models (principles and process)
+- Dataset and data being used
+  + Verify transparency
+  + Filter transformations on data
+- Initial risk models with METHODOLOGY used
+  + How evaluate token classes
+- Applied model
+  + Determines the `proposed parameters`for specific token
+
+Next month: 
+- General framework: determines the general risk team approach to assess tokens
+
+How to determine risk team: 
+- No special priviledges
+
+How does risk team submit risk constructs? (methodology)
+
+Two types of risk teams:
+- Sets up model parameters
+- Assesses oracles
+
+Risk team compensation
+- to be confirmed (voted?)
+
+How incentives are aligned
+- Risk teams work in the best interest of MKR holders
+
+TLDR
+risk contructs and how models will be presented
+risk teams approvals through voting
+
+#### Risk Segment (Vishesh Choudry)
+State of the Peg
+
+http://loans.descipher.io/
+https://graphs.santiment.net/makerdao
+
+
+#### Risk Segment (Matthew V Rabinowitz)
 
 
 
