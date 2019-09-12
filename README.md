@@ -444,12 +444,9 @@ Expectation:
 + increase in DAI supply over near future
 
 Questions: 
-Any thoughts around a pooled model for DAI locked in DSR with an underlying token that has a claim to the asset pool? (Similar to Compound) 
-+ 
-
-After DSR, when making changes to DSR/SF, will both be moved at the same time, or will the DSR be preferred over the SF? 
-
-At what rate should the global debt ceiling be increased?
++ Any thoughts around a pooled model for DAI locked in DSR with an underlying token that has a claim to the asset pool? (Similar to Compound) 
++ After DSR, when making changes to DSR/SF, will both be moved at the same time, or will the DSR be preferred over the SF? 
++ At what rate should the global debt ceiling be increased?
 
 Update:
 [Update on DSR](https://forum.makerdao.com/t/an-update-on-dsr-and-initial-values/433)
