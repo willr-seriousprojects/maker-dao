@@ -382,7 +382,90 @@ https://graphs.santiment.net/makerdao
 
 #### Risk Segment (Matthew V Rabinowitz)
 
+<b name="risk-meeting-2019-08-23" />
 
+### Meeting notes 2019-09-13
+
+#### Governance Segment
+Richard Brown: Results of Mandate polls (Cyrus and I aren't fired)
+
+Update: 
+[Governance at a glance](https://forum.makerdao.com/t/governance-at-a-glance/84)
+[Signaling process](https://forum.makerdao.com/t/current-signaling-process/396)
+
+LongForWisdom: Governance at a Glance
+- USDC request for onboarding
+- Cadence of votes: one week or longer
+
+#### Oracle Segment (Nik Kunkel)
+- Head of Backend Services will continue his tour of the new Oracle systems
+
+- Last week: oracle ecosystem within maker
++ number of proposals will be posted
+- Mariano Conti
++ Original architect of oracle ecosystem
+
+- Why are doing this?
++ gradual decentralisation of the community
+
+[image] - oracles and defi feeds
+[Image](https://lh5.googleusercontent.com/hEvf8MBZCEJ-jQB_j8Rdgb9k3H36fT7iJttX2oVsyQgTXb1LDV7G50NxvWan98HOU4KFvAEKpR0H5k8dV6Uvz0WaJogZzWMVZqySxx8Z2wAFJb33KmndFd1G9pPtGurI1Gmv9b_E)
+
+Oracle
+
+Feeds (def):
++ humans or organisations running bots that source price for assets and signs 
++ inputs for oracle smart contracts (ie. canonical prices for sc)
+
+Whitelisted add: 
++ smart contracts that can read asset price data from feeds, against payment.
++ whitelist doesnt need to be used right away
++ whitelist add doesnt need to be paid for (necessarily)
+e.g. DEX using DAI as primary asset
+
+#### Risk Segment (Cyrus Younesssi)
+
+**Will review and discuss the Risk Teams Mandate**
+
+**DSR**
+Where the DSR comes from? How it is created?
++ DSR contract just functionality to create new DAI, without any collateral
++ DAI created is weighted against SF. If too much DAI create, then flagged as "bad debt"
+
+What to do with this extra cost for MKR?
++ Price up in collateral if simply pass to CDP holder
++ Would it make sense to add SF if collateral type was too popular?
+
+Proposal: 
++ Change SF once a month
++ Change DSR more often
+
+Expectation: 
++ increase in DAI supply over near future
+
+Questions: 
+Any thoughts around a pooled model for DAI locked in DSR with an underlying token that has a claim to the asset pool? (Similar to Compound) 
++ 
+
+After DSR, when making changes to DSR/SF, will both be moved at the same time, or will the DSR be preferred over the SF? 
+
+At what rate should the global debt ceiling be increased?
+
+Update:
+[Update on DSR](https://forum.makerdao.com/t/an-update-on-dsr-and-initial-values/433)
+
+#### State of the Peg (Vishesh Choudry)
+Vishesh Choudry: State of the Peg
+
++ ETH stable over last week
++ Reflection in collateral locked. About same.
++ A few drops in SF
++ Debt. Amount of debt being increasing 
++ As ETH price drops, increase in collateral. 
++ DAI peg. Sligth over 1usd. Lower volume affects VWAP bell curve (normal distribution)
++ Secondary lending. Lending rates decreasing. dydx increased in borrow volume. compound reduced. Together: 30M
+++ Decreasing SF increases borrow volume on secondary lending
+++ Excess outstanding supply increasing in 2md lending. Concerning considering reducing i SF?
 
 
 
