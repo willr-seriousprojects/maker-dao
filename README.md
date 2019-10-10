@@ -465,6 +465,33 @@ Vishesh Choudry: State of the Peg
 ++ Excess outstanding supply increasing in 2md lending. Concerning considering reducing i SF?
 
 
+<b name="risk-meeting-2019-10-11" />
+
+### Meeting notes 2019-10-11
+
+#### Governance Segment
+
+Rune: Where is maker and DeFI today? (talk at DevCon)
+
+[image]
+
+- composability
++ how to scale DAI to billions in supply?
+
+- tokenised real assets into blockchain > supply side
++ upgrade legacy system
+
+- reconcile regulation and decentralisation
++ important to all crypto
++ regulate on the edges e.g. Security tokens, Exchanges
++ diversify jurisdiction to prevent full maker crack down
++ examples: USDC, Compound
+
+- synthetic assets (?) > demand side scale
++ emulate any asset with low overhead e.g. euro 
++ no difference for MCD deploy in maker
++ consolidate liquidity
++ example: create synthetic gold related to real gold traded in markets
 
 
 
