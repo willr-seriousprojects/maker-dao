@@ -7,7 +7,6 @@
 - [Meeting 2019-06-07](#risk-meeting-2019-06-07)
 - [Meeting 2019-06-14](#risk-meeting-2019-06-14)
 - [Meeting 2019-06-20](#risk-meeting-2019-06-20)
-
 - [Meeting 2019-08-23](#risk-meeting-2019-08-23)
 - [Meeting 2019-10-11](#risk-meeting-2019-10-11)
 - [Analytics](#analytics)
@@ -495,7 +494,15 @@ Rune: Where is maker and DeFI today? (talk at DevCon)
 + example: create synthetic gold related to real gold traded in markets
 
 
+#### State of the Peg (Vishesh Choudry)
+Vishesh Choudry: State of the Peg
 
++ DAI: healthy state of the peg.
++ Secondary lending: compound borrow rate more expensive than maker. 
++ Outstanding supply: little change.
++ Excess supply: little increase
++ Utilization rate: compound reduncing relatively. 
++ Tx volume
 
 
 
