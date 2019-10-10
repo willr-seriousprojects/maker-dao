@@ -9,6 +9,7 @@
 - [Meeting 2019-06-20](#risk-meeting-2019-06-20)
 
 - [Meeting 2019-08-23](#risk-meeting-2019-08-23)
+- [Meeting 2019-10-11](#risk-meeting-2019-10-11)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
