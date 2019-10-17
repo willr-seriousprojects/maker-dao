@@ -9,6 +9,7 @@
 - [Meeting 2019-06-20](#risk-meeting-2019-06-20)
 - [Meeting 2019-08-23](#risk-meeting-2019-08-23)
 - [Meeting 2019-10-11](#risk-meeting-2019-10-11)
+- [Meeting 2019-10-18](#risk-meeting-2019-10-18)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -504,6 +505,72 @@ Vishesh Choudry: State of the Peg
 + Utilization rate: compound reduncing relatively. 
 + Tx volume
 
+
+<b name="risk-meeting-2019-10-18" />
+
+### Meeting notes 2019-10-18
+
+#### Governance Segment
+Richard Brown: Ecosystem and Governance implications of Multi-Collateral Dai launch
+
+MCD:
+- engagement with the real world
+- increase of liquidity in the system
+- build a portfolio of assets
+- stronger security modules. mitigation of risks
+- SCD and MCD work in parallel
+
+DSR: 
+- subsidy of activities
+
+Questions: 
+- How do we maintain stability of MCD and SCD?
+- How long will we maintain MCD and SCD in parallel?
+- How will we manage the upgrades of MCD with a bigger ecosystem? How will we de-risk this process?
+
+LongForWisdom: Governance at a Glance
+
+### Risk Segment
+
+#### The migration process and its implications for Risk.
+Cyrus Younesssi
+
+What will happen with SCD? 
+What will happen with Global Settlement?
+
+MKR holders are safe guards of the user base
+Risk's job: 
+- assess the options and suggest pathways 
+
+Migration. How it works?
+- two types holders: mkr and dai (sai)
+- migrate mkr and sai holders. operarational concern more than risk. 
+- migrate 85M sai into 85M dai. Risks in chaotic scenario:
+  + supply chocks
+  + pump-dump in sai and dai
+
+- Solution: migration contract
+https://github.com/makerdao/developerguides/blob/master/mcd/upgrading-to-multi-collateral-dai/upgrading-to-multi-collateral-dai.md
+  + cdp owners: can atomically migrate with the above. 
+  + requires MKR migrated first
+  + requires sai in the deposit contract
+
+**How the migration governance will work?**
+- From January: more proper risk models
+  + risk model param at launch are conservative rather than accurate.
+
+#### State of the Peg
+Vishesh Choudry 
+
+Pricing: stable. avg 1.05usd. Majority above 1usd
+Volume: 13M 7 days
+DAI supply: run up amount in supply mid-sept
+Collateral: slight increase in amount in the system
+ETH prices: quite over last week
+ETH collateral: locked is growing. Wipe: lower level of increase
+ETH price and Liquidation: few liquidations recently
+DEBT: responsiveness of supply to eth price
+Secondary markets: borrow volumes are flat. supply volume slight increase. 
 
 
 
