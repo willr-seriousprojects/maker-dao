@@ -10,6 +10,8 @@
 - [Meeting 2019-08-23](#risk-meeting-2019-08-23)
 - [Meeting 2019-10-11](#risk-meeting-2019-10-11)
 - [Meeting 2019-10-18](#risk-meeting-2019-10-18)
+
+- [Meeting 2019-12-06](#risk-meeting-2019-12-06)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -572,10 +574,43 @@ ETH price and Liquidation: few liquidations recently
 DEBT: responsiveness of supply to eth price
 Secondary markets: borrow volumes are flat. supply volume slight increase. 
 
+<b name="risk-meeting-2019-12-06" />
+
+### Meeting notes 2019-12-06
+
+### Governance Segment
+Richard Brown: Governance Challenges
+
+LongForWisdom: Governance at a Glance
+- DSR vs SF spreads
+
+### Risk Segment
+Cyrus Younesssi: Migration Status
+
+[image]
+
+- Total debt ceiling vs current debt ceiling
+- DSR utilisation rate dropped. All exchanges have not dropped users DAI into DSR
+- SAI supply has fallen re: exchange migration
+- SAI vs DAI supply about 50/50
+- SAI below 1usd for some months --> risk still upside if "panic"
+
+Liquidity strategy
+[image]
 
 
+questions: 
+- "hoarding attack"?
+
+daistats.com
+sai2dai.xyz
+instadapp/defisaver
 
 
+### Risk Segment
+Vishesh Choudry: State of the Peg
+
+General Q&A
 
 
 
