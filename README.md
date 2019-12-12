@@ -12,6 +12,7 @@
 - [Meeting 2019-10-18](#risk-meeting-2019-10-18)
 
 - [Meeting 2019-12-06](#risk-meeting-2019-12-06)
+- [Meeting 2019-12-13](#risk-meeting-2019-12-13)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -613,8 +614,46 @@ Vishesh Choudry: State of the Peg
 General Q&A
 
 
+<b name="risk-meeting-2019-12-13" />
 
+### Meeting notes 2019-12-13
 
+#### Governance Segment
+Richard Brown: Governance Challenges
+
+LongForWisdom: Governance at a Glance
+- Emergency shutdown read - interesting
+- Vote for DSR as f(x) of SF
+- Emergency change to SCD [post](https://forum.makerdao.com/t/signal-request-poll-when-should-we-trigger-scd-global-shutdown/935)
+- Poll to activate governance security [post](https://forum.makerdao.com/t/addendum-to-the-current-poll-to-activate-the-governance-security-module/938)
+- Governance security module vs monetary policy vote [post](https://forum.makerdao.com/t/in-the-case-where-an-emergency-technical-change-to-the-dcs-is-required-should-we-skip-monetary-policy-changes-in-that-weeks-executive-vote/929)
+
+#### Technical Segment
+Wouter Kampmann The Governance and Oracle Security Modules<>br
+[original post](https://forum.makerdao.com/t/addendum-to-the-current-poll-to-activate-the-governance-security-module/938)
+- delay: allows to inspect effects in the system -> community can remediate OR emergency shutdown mechanism
+- vote also required for patching fix
+- oracle security module does not need vote -> 1h to application
+
+#### Risk Segment
+Cyrus Younesssi: Migration Status<br>
+- Migration: DAI more than SAI
+- DSR: 4%
+- DSR utilisation does not push dai price up. Move from usd to dai does. 
+- Higher dsr = less float
+- DAI in uniswap liquidity higher than SAI
+- CDP holders are still bottleneck in migration. Not dai holders.
+  + strategies to push migration
+- Compound has significant SAI holders
+
+Vishesh Choudry: State of the Peg<br>
+- Trading around 1usd. Light trading.
+- 96% of DAI from eth. 3% from BAT. 
+``
+More thought needed on more collateral added. Conversations on-going
+``
+- Borrow rate
+- Compound: supply still pretty high
 
 
 
