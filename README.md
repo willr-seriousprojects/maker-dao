@@ -13,6 +13,7 @@
 
 - [Meeting 2019-12-06](#risk-meeting-2019-12-06)
 - [Meeting 2019-12-13](#risk-meeting-2019-12-13)
+- [Meeting 2019-12-20](#risk-meeting-2019-12-20)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -654,6 +655,35 @@ More thought needed on more collateral added. Conversations on-going
 ``
 - Borrow rate
 - Compound: supply still pretty high
+
+<b name="risk-meeting-2019-12-20" />
+
+### Meeting notes 2019-12-20
+
+#### Governance Segment
+Richard Brown: General Q&A
++ Shareholders are mostly following community position
+
+LongForWisdom: Governance at a Glance
++ Pooling
++ [Signaling requests guidelines](https://forum.makerdao.com/t/signaling-guidelines/223)
++ https://community-development.makerdao.com/makerdao-mcd-faqs/faqs/emergency-shutdown
++ https://forum.makerdao.com/t/questions-discussion-on-the-emergency-shutdown/930
++ Debt per collateral bucket: 225%-325% mostly. 
+```
+Opportunity: run time series view of bucket collateralisation by eth price 
+```
+
+#### Risk Segment
+Cyrus Younesssi: Migration Status
++ Compound migration coming soon
++ Debt ceiling: DAI Debt ceiling near the limit
+
+Vishesh Choudry: State of the Peg
++ DAI Price: around 1usd. V
++ SAI trading olume is picking activity : dydx, khyber, oasis 
++ Surplus of DAI going into DSR
+
 
 
 
