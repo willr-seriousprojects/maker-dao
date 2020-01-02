@@ -14,6 +14,7 @@
 - [Meeting 2019-12-06](#risk-meeting-2019-12-06)
 - [Meeting 2019-12-13](#risk-meeting-2019-12-13)
 - [Meeting 2019-12-20](#risk-meeting-2019-12-20)
+- [Meeting 2020-01-03](#risk-meeting-2020-01-03)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
@@ -684,10 +685,30 @@ Vishesh Choudry: State of the Peg
 + SAI trading olume is picking activity : dydx, khyber, oasis 
 + Surplus of DAI going into DSR
 
+<b name="risk-meeting-2020-01-03" />
 
+### Meeting notes 2020-01-03
 
+#### Governance Segment
+- presentation of governance model
+[images]
++ [presentation](https://docs.google.com/presentation/d/10x5Z0111Lt6tOMsqhiZop53QiLLSRxqaQKVvyPY6D-U/edit)
++ [Original thread](https://forum.makerdao.com/t/signal-request-should-we-replace-the-weekly-dsr-rate-governance-poll-with-a-dsr-spread-governance-poll/969)
 
+#### Risk Segment
+Cyrus Younesssi: Migration Status
++ ETH debt ceiling 100M
++ MKR in burner - 10K
++ Worry: Compound SAI
++ Santiment: 6M SAI not moved in 1y+ --> [analysis here](https://graphs.santiment.net/makerdao-pro#event_stats)
++ Distribution: 100 addresses hold 1/3 of SAI
 
+Vishesh Choudry: State of the Peg
++ Secondary lending SAI: not moving much
++ Parameters to consider: dsr, sf, avg borrow rates, avg lend rates
++ collateralisation ratio: measure of risk in the system - low collateral about 1/2 of DAI supply!
+  + 3 CDP account for 23 out 73 MCD
++ maker burn [here](https://makerburn.com/)
 
 
 
