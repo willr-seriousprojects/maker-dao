@@ -15,6 +15,7 @@
 - [Meeting 2019-12-13](#risk-meeting-2019-12-13)
 - [Meeting 2019-12-20](#risk-meeting-2019-12-20)
 - [Meeting 2020-01-03](#risk-meeting-2020-01-03)
+- [Meeting 2020-01-10](#risk-meeting-2020-01-10)
 - [Analytics](#analytics)
 
 <a name="risk-governance-meetings" />
