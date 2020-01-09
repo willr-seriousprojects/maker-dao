@@ -710,5 +710,37 @@ Vishesh Choudry: State of the Peg
   + 3 CDP account for 23 out 73 MCD
 + maker burn [here](https://makerburn.com/)
 
+<b name="risk-meeting-2020-01-10" />
+
+### Meeting notes 2020-01-10
+
+#### Governance Segment
+Richard Brown: General Q&A
+Derek - emergency shutdown module
+
+#### Risk Segment
+Cyrus Younesssi: Migration Status (done by Primoz)
+- DAI supply pickup: new CDPs open in SAI (market makers or speculators?)
+- SAI liquidity. Uniswap is only way. Slipage is increasing.
+- Improved coll ratio
+- DAI in DSR: increased due to addition of compound
+- SAI CDPs: 7M SAI in inactive wallets; 7M in known addresses; top 100 addresses own 77% of SAI
+  + Migration is limited by liquidity -> not enough SAI to pay debt on CDPs
+  + Recent addition of ETH to prevent liquidation
+- SF fees paid in MKR increased
+
+Analysis at
+https://docs.google.com/spreadsheets/d/1Ba972aexu2-KQ0hyGxs8XbZZG05N-WTkmMJf6DutZxY/edit#gid=1147677054
+
+Vishesh Choudry: State of the Peg
+- DAI VWAP breakdown 
+- SAI: low volumes, mostly in uniswap
+- Collateration ratio: low collateral for significant %
+
+```
+Opportunity: how much of CDP activity is managed automatically
+```
+
+
 
 
