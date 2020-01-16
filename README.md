@@ -741,6 +741,53 @@ Vishesh Choudry: State of the Peg
 ```
 Opportunity: how much of CDP activity is managed automatically
 ```
+<b name="risk-meeting-2020-01-17" />
+
+### Meeting notes 2020-01-17
+
+#### Governance Segment
+Richard Brown: General Q&A
+
+LongForWisdom: ‘Governance at a Glance’
+
+Mariano Conti: Maker Burn
+
+#### Risk Segment
+**Cyrus Younesssi: Debt Ceilings**
+- SCD: 70M ceiling. Big gap of unused debt ceiling > option: reduce Debt ceiling
+- MDC: increase in eth collateral. Will hit debt ceiling soon.  
+  + Short term debt celing > no pre-eventive action to increase yet
+  + Long term theoretical max DC
+
+**Primoz Kordez: Migration Status**
+- DAI supply: 89M > 12M increase since Jan 1
+- SAI-DAI migration increasing (through contract)
+- New draws: 20 CDPs (draws) > increasing debt (25% of debt)
+- Net wipes: 27 > reducing debt 
+- Inacticve CDPs during migration: 32 > 12M in debt (41% of debt)
+
+Analysis at
+https://docs.google.com/spreadsheets/d/18Et6TQZnGfuc8YJXHLFZXm75UzxigGR3wcp8VaibhdI/edit#gid=1942156439
+
+```
+analysis opportunity: what are CDPs minting SAI doing with debt? 
+```
+
+**Vishesh Choudry: State of the Pegs**
+- Vaults MCD: top 20 vaults hold 44M of outstanding DAI supply
+
+```
+Opportunity: historical vault analysis required
+```
+
+
+**Derek Flossman : Current thinking about Tax**
+
+- Shutdown of SAI CDPs > when global settlement occurs debt is forgiven
+  + optional solution: tax penalty to CDPs
+  + 6 months repayment phase followed by tax date
+  
+[images]
 
 
 
