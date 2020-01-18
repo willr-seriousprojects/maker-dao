@@ -17,6 +17,13 @@
 - [Meeting 2020-01-03](#risk-meeting-2020-01-03)
 - [Meeting 2020-01-10](#risk-meeting-2020-01-10)
 - [Analytics](#analytics)
+- [Risk articles on Defi](#articles)
+
+<a name="articles" />
+
+## Articles
+
+- [Illiquidity and bank runs in DeFi](https://medium.com/alethio/overlooked-risk-illiquidity-and-bank-runs-on-compound-finance-5d6fc3922d0d#3f8c)
 
 <a name="risk-governance-meetings" />
 
