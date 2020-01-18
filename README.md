@@ -3,6 +3,7 @@
 ## Contents
 
 - [Risk articles on Defi](#articles)
+- [Data sources](#data)
 - [Risk Governance meeting notes](#risk-governance-meetings)
 - [Meeting 2019-05-31](#risk-meeting-2019-05-31)
 - [Meeting 2019-06-07](#risk-meeting-2019-06-07)
@@ -27,6 +28,19 @@
 Collection of relevant analytical articles to understand risk categories, metrics and analysis associated with Maker and DeFi platforms. Focus on factual data and scientific research
 
 - [Illiquidity and bank runs in DeFi](https://medium.com/alethio/overlooked-risk-illiquidity-and-bank-runs-on-compound-finance-5d6fc3922d0d#3f8c) by [Alethio](https://medium.com/alethio)
+
+<a name="data" />
+
+## Data sources
+
+- [Blocklytics Ethdata](https://blocklytics.org/) by Blocklytics - tool to help Python analysts and developers focus on analysis instead of pulling and decoding Ethereum data. 
+  + [Documentation](https://docs.blocklytics.org/ethdata/introduction)
+  + [Blog](https://blocklytics.org/blog/ethdata-python-module/)
+  + [Pools](https://pools.fyi/#/) - liquidity pool tracker by Blocklytics
+  
+- [Dune Analytics]
+  
+
 
 <a name="risk-governance-meetings" />
 
