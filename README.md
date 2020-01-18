@@ -22,7 +22,7 @@
 
 <a name="articles" />
 
-## Articles
+## Risk Articles
 
 - [Illiquidity and bank runs in DeFi](https://medium.com/alethio/overlooked-risk-illiquidity-and-bank-runs-on-compound-finance-5d6fc3922d0d#3f8c) by [Alethio](https://medium.com/alethio)
 
