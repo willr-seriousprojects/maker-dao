@@ -24,6 +24,8 @@
 
 ## Risk Articles
 
+Collection of relevant analytical articles to understand risk categories, metrics and analysis associated with Maker and DeFi platforms. Focus on factual data and scientific research
+
 - [Illiquidity and bank runs in DeFi](https://medium.com/alethio/overlooked-risk-illiquidity-and-bank-runs-on-compound-finance-5d6fc3922d0d#3f8c) by [Alethio](https://medium.com/alethio)
 
 <a name="risk-governance-meetings" />
