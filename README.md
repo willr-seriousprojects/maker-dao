@@ -813,6 +813,17 @@ Opportunity: historical vault analysis required
   
 [images]
 
+<b name="risk-meeting-2020-01-31" />
+
+### Meeting notes 2020-01-31
+
+### Governance Segment
+Richard Brown: General Q&A
+
+LongForWisdom: Governance at a Glance
+
+#### Risk Segment
+Vishesh Choudry: State of the Peg
 
 
 
