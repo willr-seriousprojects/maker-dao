@@ -826,4 +826,44 @@ LongForWisdom: Governance at a Glance
 Vishesh Choudry: State of the Peg
 
 
+<b name="risk-meeting-2020-02-" />
+
+### Meeting notes 2020-01-31
+
+### Governance Segment
+Richard Brown: General Q&A
+
+LongForWisdom: Governance at a Glance and 'A Very Special Thread'
+
+[Governance dashboards](mkgov.science)
+```
+analysis opportunity: what kind of historical data required for governance
+- increase in vote participation
+- how much MKR is activate in a day (avg)
+- time since last active address = measure activity 
+```
+
+### Risk Segment
+
+```
+analysis: SAI risk 
+```
+
+**Primoz Kordez: Migration Status**
+- DAI supply: largest migration came from nexo. 2 large cdps migrated . 
+- Coll ratio: has increased significantly (400+). Reason? Bullish?  
+- no SAI minting activity recently. makerscan 
+- SAI liquidity: still some liquidity in Compound
+- 
+
+[defiexplore](defiexplore.com/stats) - only aggregated view of dai migration
+[makerscan](makerscan.io/cups) - minting activity for SAI
+
+```
+analysis opportunity: why is coll ratio increasing? Bullish sentiment? CDP migrations?
+```
+
+[stopped at 55min of meeting - re-watch from here]
+
+Vishesh Choudry: State of the Peg
 
