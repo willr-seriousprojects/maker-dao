@@ -18,7 +18,7 @@
 - [Meeting 2019-12-20](#risk-meeting-2019-12-20)
 - [Meeting 2020-01-03](#risk-meeting-2020-01-03)
 - [Meeting 2020-01-10](#risk-meeting-2020-01-10)
-- [Meeting 2020-02-10]("risk-meeting-2020-02-14")
+- [Meeting 2020-02-10](#risk-meeting-2020-02-14")
 - [Analytics](#analytics)
 
 
