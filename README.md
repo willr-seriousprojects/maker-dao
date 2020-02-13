@@ -18,6 +18,7 @@
 - [Meeting 2019-12-20](#risk-meeting-2019-12-20)
 - [Meeting 2020-01-03](#risk-meeting-2020-01-03)
 - [Meeting 2020-01-10](#risk-meeting-2020-01-10)
+- [Meeting 2020-01-10]("risk-meeting-2020-02-14")
 - [Analytics](#analytics)
 
 
@@ -864,6 +865,42 @@ analysis opportunity: why is coll ratio increasing? Bullish sentiment? CDP migra
 ```
 
 [stopped at 55min of meeting - re-watch from here]
+
+Vishesh Choudry: State of the Peg
+
+<b name="risk-meeting-2020-02-14" />
+
+### Meeting notes 2020-02-14
+
+### Governance Segment
+LongForWisdom: Governance at a Glance
+- Update to the state of the peg dashboard/section
+- signal request for new `ETH debt ceilling`: should maker or risk team to make decisions?
+- cyrus: debt ceiling happens in incremental way due to OSM
+- DAI auctions: mostly 1 person bidding [makerburnauctions](https://daiauctions.com/) and [surplus auctions](https://daiauctions.com/flap)
+  + Suggestion: reduce spread in auction (min bid 3%) to encourage competition  
+  + Flash loans: won't work probably..
+
+WillBarnes: conflicting Governance attack for GSM
+- Proposed solution: Dark Fix
+  + Bug fix is kept secret (bytecode) --> `create_to_opcode`
+  + GSM delay can be introduced
+  + Cryptographically secure
+  + emergency shutdown can be triggered, despite dark fix
+- Trust building with community
+  + MKR stakeholders sign message to signal support 
+- Summary
+  + good balance between governance attacks vs critical vulnerability
+  
+- Code at [here](https://github.com/makerdao/dss-darkfix)
+  
+[stopped at 48min of meeting - re-watch from here]
+
+### Engineering Section
+Mariano Conti: "Dark Fixes and the GSM"
+
+### Risk Segment
+Primoz Kordez: Migration Status
 
 Vishesh Choudry: State of the Peg
 
