@@ -934,7 +934,9 @@ Primoz Kordez: Migration Status
 - Coll ratio: meaninful risk. Distribution with >30% in low coll ratio
   + There was reduced eth from contracts > due to flash loan attacks?
 - Debt amount: increased up until a dip
-- MKR liquidity: 16k > 4K liquidity in uniswap in last week -> defending system? (2 main whales)
+- MKR liquidity: 
+  + 16k > 4K liquidity in uniswap in last week -> defending system? (2 main whales)
+  + a script underway for mkr liquidity from different platforms
 
 [stopped at 43min of meeting - re-watch from here]
 
