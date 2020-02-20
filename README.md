@@ -19,6 +19,8 @@
 - [Meeting 2020-01-03](#risk-meeting-2020-01-03)
 - [Meeting 2020-01-10](#risk-meeting-2020-01-10)
 - [Meeting 2020-02-10](#risk-meeting-2020-02-14)
+- [Meeting 2020-02-21](#risk-meeting-2020-02-21)
+
 - [Analytics](#analytics)
 
 
@@ -903,4 +905,36 @@ Mariano Conti: "Dark Fixes and the GSM"
 Primoz Kordez: Migration Status
 
 Vishesh Choudry: State of the Peg
+
+<b name="risk-meeting-2020-02-21" />
+
+### Meeting notes 2020-02-21
+
+### Governance Segment
+Richard Brown: Governance Security Module: A Brief History
+
+Current GSM Thread
+- Dark Fix Thread
+  + In the future: easier to shutdown and bring back up system. ie 2 transactions
+- Previous Failed GSM Vote
+  + Another vote will take place in 24h. Increase gsm to 24h
+  + Technical emergency takes precendent over monetary policy
+GSM Technical Docs
+
+LongForWisdom: Governance at a Glance
+
+### Technical Segment
+Engineering will discuss the specifics of the Governance Security Module and the 'Dark Fix'
+
+### Risk Segment
+Primoz Kordez: Migration Status
+
+**Vishesh Choudry: State of the Peg**
++ DAI volume: Higher trading volume than normal. Mostly on Dydx. 
+- Coll ratio: meaninful risk. Distribution with >30% in low coll ratio
+  + There was reduced eth from contracts > due to flash loan attacks?
+- Debt amount: increased up until a dip
+- MKR liquidity: 16k > 4K liquidity in uniswap in last week -> defending system? (2 main whales)
+
+[stopped at 43min of meeting - re-watch from here]
 
