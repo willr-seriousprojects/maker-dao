@@ -914,11 +914,15 @@ Vishesh Choudry: State of the Peg
 Richard Brown: Governance Security Module: A Brief History
 
 Current GSM Thread
+
 - Dark Fix Thread
   + In the future: easier to shutdown and bring back up system. ie 2 transactions
+
 - Previous Failed GSM Vote
   + Another vote will take place in 24h. Increase gsm to 24h
   + Technical emergency takes precendent over monetary policy
+  + SCD is an attack vector to MCD ("back door"). Should GSM protect SCD?
+  
 GSM Technical Docs
 
 LongForWisdom: Governance at a Glance
@@ -938,5 +942,5 @@ Primoz Kordez: Migration Status
   + 16k > 4K liquidity in uniswap in last week -> defending system? (2 main whales)
   + a script underway for mkr liquidity from different platforms
 
-[stopped at 43min of meeting - re-watch from here]
+[stopped at 48min of meeting - re-watch from here]
 
