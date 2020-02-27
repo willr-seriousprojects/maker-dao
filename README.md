@@ -20,6 +20,7 @@
 - [Meeting 2020-01-10](#risk-meeting-2020-01-10)
 - [Meeting 2020-02-10](#risk-meeting-2020-02-14)
 - [Meeting 2020-02-21](#risk-meeting-2020-02-21)
+- [Meeting 2020-02-28](#risk-meeting-2020-02-28)
 
 - [Analytics](#analytics)
 
@@ -944,3 +945,66 @@ Primoz Kordez: Migration Status
 
 [stopped at 48min of meeting - re-watch from here]
 
+<b name="risk-meeting-2020-02-28" />
+
+### Meeting notes 2020-02-28
+
+### Governance Segment
+- cadence poll: reduce dsr spread candence 
+  - [Pool vote](https://vote.makerdao.com/polling-proposal/qmxvvzb6uei1jawvtxentsbreepfkuzsohaefpw6j4vpn5)
+  - [science gov](https://mkrgov.science/poll/104)
+  - [thread](https://forum.makerdao.com/t/signal-request-reduce-the-frequency-of-the-dsr-spread-governance-poll/1207)
+- single thread: rank choice option
+
+Book to read: "Thinking in Systems: A Primer" by Donella Meadows.
+
+### Oracles Segment
+Nik Kunkel: Oracles and Governance
+- New oracles are being built
+- Oracles: are data suppliers > used for collateralisation, price
+- MKR oracles are backbone of DeFi > used by many dapps
+- Feeds: set of individuals/org that submit data to oracles > appointed by MKR governance
+  - Dark feeds: Identities of feeds unknown > no sybil resistance; users don't trust 
+  - Light feeds: Orgs with public identities 
+    > well known with communities and brands 
+    > have a reputation to protect
+    > ideal: hybrid between Dark and Light feeds
+- Oracles v1: feeds > contracts > medianizer (median) > dsr contracts
+- Oracles v2: use eth to sign feeds offchain , use gossip network > most happens **off chain**
+  - feeds > scuttlebutt p2p gossip network > relayers > medianizer > oracle security module > Dai stability system / Customers & partners
+  - increases scalability, reduces attack
+  - Customers & partners can choose if use oracle security module or read from medianizer
+
+- Governance: how does it play here?
+- Administrative power: add/remove feeds, add/remove oracles, change delay period in OSM, manage whitelist read-access to oracles
+- Current state: 
+  - migration from v1 to v2 at least until SCD is out
+  - any oracle for free for 1 year
+- Oracle team mandate
+  - Risk team has mandate as SMEs
+
+Next steps:
+- Process to get whitelisted? 
+- How to become a light feed?
+- **By next week document on processes (DRAFT)**
+
+```
+ChainLink: has problem with updates with congestion of on-chain network
+```
+```
+Oracle v1: Maker does not know who/how they use the oracles. V2 Maker will know who/what and whitelist
+```
+
+### Risk Segment
+Primoz Kordez: Migration Status
+- SAI migration in migration contract (avg: 300K/day)
+- active SAI cdps have been deleveraging
+- share of inactive wallets is rising 
+
+Vishesh Choudry: State of the Peg
+- Dai trading slightly above peg (24h)
+- DyDx and Oasis activity high > dydx short term positions, higher yield
+- Deleveraging happening en masse > More eth--> DAI
+- Top 3 positions > 25% of supply!
+- Liquidity increasing in Uniswap but not to market speed
+- Auctions increased in last 24h
