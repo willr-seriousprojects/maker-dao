@@ -21,6 +21,7 @@
 - [Meeting 2020-02-10](#risk-meeting-2020-02-14)
 - [Meeting 2020-02-21](#risk-meeting-2020-02-21)
 - [Meeting 2020-02-28](#risk-meeting-2020-02-28)
+- [Meeting 2020-03-13](#risk-meeting-2020-03-13)
 
 - [Analytics](#analytics)
 
@@ -1008,3 +1009,36 @@ Vishesh Choudry: State of the Peg
 - Top 3 positions > 25% of supply!
 - Liquidity increasing in Uniswap but not to market speed
 - Auctions increased in last 24h
+
+<b name="risk-meeting-2020-03-13" />
+
+### Meeting notes 2020-03-13
+
+### Governance Segment
+Richard Brown: General Q&A
+
+Suggestions from discussion:
+- lower dsr spread
+- delay debt auction time 
+- keeper liquidity for auctions
+
+Links: 
+https://forum.makerdao.com/t/black-thursday-response-thread/1433
+https://github.com/makerdao/developerguides/blob/master/keepers/auction-keeper-bot-setup-guide.md
+https://mkrgov.science/poll/110
+
+
+https://forum.piedao.org/t/community-call-1-kick-off-defiscore-cash/59
+
+```
+Opportunity: Any financial models been created looking at Keeper costs vs potential profits to see what kind of spread is required to be profitable/attractive to setup?
+```
+
+```
+Opportunity: analyse auction bids
+```
+
+### Risk Segment
+Cyrus Younessi: Collateral Risk Part 2
+
+Vishesh Choudry: State of the Peg
