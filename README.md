@@ -1042,3 +1042,74 @@ Opportunity: analyse auction bids
 Cyrus Younessi: Collateral Risk Part 2
 
 Vishesh Choudry: State of the Peg
+
+
+<b name="risk-meeting-2020-03-18" />
+
+### Meeting notes 2020-03-18
+
+### Governance Segment
+Richard Brown: General Q&A
+
+### Risk Segment
+
+**Vamsi’s presentation on the Flop Auction**
+- PRESENTATON
+
+**Dockerized auction keeper presentation by Marc-andre**
+- Very interesting presentation
+
+```
+Opportunity: start out with docker version of keeper software (github)
+```
+
+Flop Auction: Potential executive vote to lower minimum bid. Pros/cons?
+- start price for debt auction
+  - do we want to decrease start price of bidding amount (current: 200)? e.g. 166 DAI per MKR
+  - speculation: shall we reduce to "free market" approach ie 0 bid starting price
+  > risk: inflation 
+- original: flop auction 48h after liquidation > increasing to 6 days
+- failed auction = auction without bids
+
+```
+opportunity: liquidity analysis 
+```
+
+**USDC overview / recap +
+Circuit breaker discussion. When/how to use.**
+
+- circuit breaker = liquidation freeze
+- circuit breaker allows for time to reduce crunch from auctions
+
+- issues: network congestion and dai liquidity
+> node infrastructure --> related to the 6h TTL
+> dai liquidity issue not solved --> ISSUE
+
+Look at projected required DAI
+http://makervaults.descipher.io/
+
+- add USDC helps with DAI peg and dai liquidity crunch > DATA to prove
+> reduces the issue with liquidity required for a big drop in ETH
+
+Rational behind USDC:
+```
+So if the DAI price skyrockets in the event of an eth drop ppl can basically get DAI backed by USDC so that keepers have availability of DAI to close auction lots.
+```
+
+**SCD shutdown discussion. Data collection.**
+- explore.duneanalytics.io/dashboard/cdp-migration
+
+Reasons for cdp migration (speculation)
+- peth dilution if it comes to losses
+- capitulation, migrate and close cdp
+
+Reasons to migrate sai
+- premium available when migrating to DAI at 13% higher price
+- high dai lending rates
+
+If eth drops, there is sai liquidity crunch > mostly below 70 USD
+
+Summary: 
+- if eth keeps dropping, sai liquidity get short for auctions.
+- if eth keeps dropping, incentive to migrate to DAI (premium)
+
