@@ -1093,7 +1093,8 @@ http://makervaults.descipher.io/
 
 Rational behind USDC:
 ```
-So if the DAI price skyrockets in the event of an eth drop ppl can basically get DAI backed by USDC so that keepers have availability of DAI to close auction lots.
+So if the DAI price skyrockets in the event of an eth drop ppl can basically 
+get DAI backed by USDC so that keepers have availability of DAI to close auction lots.
 ```
 
 **SCD shutdown discussion. Data collection.**
