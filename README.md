@@ -1114,3 +1114,57 @@ Summary:
 - if eth keeps dropping, sai liquidity get short for auctions.
 - if eth keeps dropping, incentive to migrate to DAI (premium)
 
+<b name="risk-meeting-2020-03-20" />
+
+### Meeting notes 2020-03-20
+
+### Governance Segment
+Richard Brown: General Q&A
+LongForWisdom: How to manage PR as a community
+LongForWisdom: Onboarding additional stablecoins to spread risk
+
+### Risk Segment
+Vamsi: Prettier version of the FLOP auction presentation
+Adrian: Live walkthrough of auctions.makerdao.com 1
+Cyrus: Additional USDC collateral type
+
+<b name="risk-meeting-2020-03-21" />
+
+### Meeting notes 2020-03-21
+
+Agenda
+This will be the last call in the daily “Black Thursday” series.
+
+### Governance Segment
+
+LongForWisdom: How to manage PR as a community
+- a group will be put together
+
+### Risk Segment
+
+**Cyrus: FLOP Auction Results**
+- 37x completed auctions, 3x remaining
+- **bug**: after certain amount of time (6d?), bad debt should go into flop auctions. Some auctions got "stuck" that will be cancelled by surplus (over time). Seriousness: mild
+
+results (positive): 
+- no discount for bidding price
+- no disencentive from 2nd market
+- minimum price bid was positive
+- no issues with pricing oracle
+
+```
+analysis opportunity: analysis of dynamics within flop auctions
+```
+
+Open to a review of the weeks events and a general Q&A from Risk
+
+
+Mitote: Emergency Shutdown Criteria for MCD?
+- https://forum.makerdao.com/t/what-about-emergency-shutdown-why-have-we-ignored-this-mechanism/1702
+- https://forum.makerdao.com/t/signal-thread-scd-shutdown/1673
+
+Actions: 
+- scenarios for ES situations
+
+
+
