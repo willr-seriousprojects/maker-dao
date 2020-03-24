@@ -1166,5 +1166,62 @@ Mitote: Emergency Shutdown Criteria for MCD?
 Actions: 
 - scenarios for ES situations
 
+<b name="risk-meeting-2020-03-25" />
+
+### Meeting notes 2020-03-25
+
+### Technical Segment
+
+**Kurt 1: Discuss the flop unblocking 1 and the possibility for an immediate Executive Vote**
+
+Links:
+- [Forum discussion](https://forum.makerdao.com/t/blocked-flops-debt-auctions-everything-you-need-to-know/1748)
+- [Slide presentation](https://docs.google.com/presentation/d/1nnpPBiOLEWi81q8zrHoIWH4s3iQaKrCSaR68AafzQJo/edit#slide=id.p)
+
+Background: 
+- contract `vat`
+- total debt = backed debt (summ all vault debt) + unbacked debt (from liquidations, DSR, etc)
+
+- System balance sheet/vow
+  - System surplus (day / joy)
+  - System Deficit (equal to `vice` in current implementation)
+- Total Queued Unbacked Debt/ sin (from liquidations)
+- Unbacked debt queue 
+- Unbacked debt sent to auction
+- Free unbacked debt
+
+![Visualisaion of quantities image]()
+
+Getting system debt to reduce (2x mechanisms) 
+- heal 
+- kiss
+
+### Governance Segment
+Richard Brown 2: General Q&A
+
+**LongForWisdom: Review Signal Thread: Do we compensate vault holders that were completely liquidated? 3**
+
+```
+If I’m interpreting Makerman’s argument correctly: even auctions that had 2/3 bid (instead of 0) would still have resulted in the entire loss of “additional” collateral for a vault owner
+
+yes absolutely correct, if 66% bid was claimed they swtill would have been wiped out 
+
+I like that as an option.   A small chart pop up when someone wants to borrow DAI - collateral prices and collateral left if liquidated at that price.  90,80,70,60,50% etc..
+
+**analysis opportunity**
+
+- What is the best case/worst case scenarios for what users would have gotten back given market conditions?
+
+```
+
+links: 
+- https://github.com/makerdao/mcd-cdp-portal/blob/091b84ffedcfbe290531d721a2ef8b60d13b5090/src/languages/_english.js#L212
+
+Links: 
+- [Maker crisis medium](https://medium.com/dragonfly-research/daos-ex-machina-an-in-depth-timeline-of-makers-recent-crisis-66d2ae39dd65)
+- [Liquidation at 0 DAI](https://medium.com/@whiterabbit_hq/black-thursday-for-makerdao-8-32-million-was-liquidated-for-0-dai-36b83cac56b6): best case - most needed 13207.5153  = .21* reported ETH in 
+- [Black Thurs Defi Saver](https://medium.com/defi-saver/black-thursday-at-defi-saver-3c35ea6cd0d0)
+
+
 
 
