@@ -22,6 +22,11 @@
 - [Meeting 2020-02-21](#risk-meeting-2020-02-21)
 - [Meeting 2020-02-28](#risk-meeting-2020-02-28)
 - [Meeting 2020-03-13](#risk-meeting-2020-03-13)
+- [Meeting 2020-03-18](#risk-meeting-2020-03-18)
+- [Meeting 2020-03-20](#risk-meeting-2020-03-20)
+- [Meeting 2020-03-21](#risk-meeting-2020-03-21)
+- [Meeting 2020-03-25](#risk-meeting-2020-03-25)
+- [Meeting 2020-03-27](#risk-meeting-2020-03-27)
 
 - [Analytics](#analytics)
 
@@ -1223,5 +1228,95 @@ Links:
 - [Black Thurs Defi Saver](https://medium.com/defi-saver/black-thursday-at-defi-saver-3c35ea6cd0d0)
 
 
+<b name="risk-meeting-2020-03-27" />
+
+### Meeting notes 2020-03-27
+
+### Governance Segment
+Richard Brown 1: Preamble
+
+**Rich Cuellar-Lopez: Emergency Shutdown Working Group**
+
+Who:
+- create a working group for defi consortium
+- mostly for people not part of foundation
+- couple of members for each protocol with "skin in the game": Compound, Uniswap
+
+What:
+- timeline for ES
+- what should be done during ES
+- review docs put together
+
+LongforWisdom: Forum ‘Governance at a Glance’
+- [Steps for SCD shutdown - process](https://forum.makerdao.com/t/signal-thread-scd-shutdown/1673/20)
+
+### Technical Segment
+**Kurt 1:** 
+Discuss the results of the Flop forum Poll
+The need for a ‘delay’ added to the spell?
+
+Links: 
+- [Signal thread](https://forum.makerdao.com/t/signal-thread-finishing-flops-and-current-executive/1795)
+
+```
+analysis opportunity: does monetary policy has the expected effects? Look into decisions made (votes to change) and expected results vs actual results of actions ==> Monetary Policy Tracker
+```
+
+**Mariano 1: MKR token authority**
+
+links:
+- [mkr authority](https://forum.makerdao.com/t/mkr-token-authority-transfer/836)
+- [blog post: transfer of mkr token control](https://blog.makerdao.com/the-transfer-of-mkr-token-control-to-governance-the-final-step/)
+- [blog post: transfer of control system](https://blog.makerdao.com/transfer-of-mkr-token-control-a-giant-leap-toward-system-decentralization/)
+
+- SCD
+  - owner: multisig mkr foundation
+  - authority: no one
+
+![image scd]()  
+
+- MCD
+  - owner: 0x0
+  - mkr authority: governance (root)
+  
+![image mcd]()  
+  
+> Note: The governance now becomes really important for several decisions, including auctions.
+
+### Risk Segment
+
+**Marko: USDC Analysis**
+
+Links: 
+- []()
+
+Why:
+- there is ongoing discussion happening on use of USDC: flop auction, peg management
+- what do we want from collateral type going forward?
+
+Analysis: 
+- 40% of debt for shorting dai (peg management)
+- 50% DAI accumulation  ==> account related to keeper ==> largest ETH supplier in compound 
+
+Main take away: @cyrus
+- half: flop actions
+- half: peg management/shorting DAI (arbitrage)
+
+Should we add a USDC collateral type-A and collateral type-b?
+
+
+**Primoz Kordez: Migration Status**
+
+Links: 
+- explore.duneanalytics.io/dashboard/cdp-migration
+- https://daistats.com/
+
+**Vishesh Choudry: State of the Peg**
+
+Links: 
+- http://descipher.io/
+
+- DAI peg: price of DAI hovering around 1.02 usd  
+- 
 
 
