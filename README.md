@@ -27,6 +27,7 @@
 - [Meeting 2020-03-21](#risk-meeting-2020-03-21)
 - [Meeting 2020-03-25](#risk-meeting-2020-03-25)
 - [Meeting 2020-03-27](#risk-meeting-2020-03-27)
+- [Meeting 2020-04-03](#risk-meeting-2020-04-03)
 
 - [Analytics](#analytics)
 
@@ -1319,4 +1320,13 @@ Links:
 - DAI peg: price of DAI hovering around 1.02 usd  
 - 
 
+<b name="risk-meeting-2020-04-03" />
 
+### Meeting notes 2020-04-03
+
+### Governance Segment
+Richard Brown: General Q&A
+Rune Christensen 1: The Self-Sustaining MakerDAO Initiative
+
+### Risk Segment
+Vishesh Choudry: State of the Peg
