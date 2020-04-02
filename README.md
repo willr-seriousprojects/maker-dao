@@ -12,7 +12,6 @@
 - [Meeting 2019-08-23](#risk-meeting-2019-08-23)
 - [Meeting 2019-10-11](#risk-meeting-2019-10-11)
 - [Meeting 2019-10-18](#risk-meeting-2019-10-18)
-
 - [Meeting 2019-12-06](#risk-meeting-2019-12-06)
 - [Meeting 2019-12-13](#risk-meeting-2019-12-13)
 - [Meeting 2019-12-20](#risk-meeting-2019-12-20)
@@ -28,7 +27,6 @@
 - [Meeting 2020-03-25](#risk-meeting-2020-03-25)
 - [Meeting 2020-03-27](#risk-meeting-2020-03-27)
 - [Meeting 2020-04-03](#risk-meeting-2020-04-03)
-
 - [Analytics](#analytics)
 
 ---
