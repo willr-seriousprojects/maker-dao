@@ -115,4 +115,3 @@ Things to consider
 - Costs
     - tech infrastructure (AWS)
     - hourly work/project budget
-    
