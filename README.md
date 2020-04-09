@@ -27,6 +27,9 @@
 - [Meeting 2020-03-25](#risk-meeting-2020-03-25)
 - [Meeting 2020-03-27](#risk-meeting-2020-03-27)
 - [Meeting 2020-04-03](#risk-meeting-2020-04-03)
+- [Meeting 2020-04-10](#risk-meeting-2020-04-10)
+- [Meeting 2020-04-16](#risk-meeting-2020-04-16)
+
 - [Analytics](#analytics)
 
 ---
@@ -1616,10 +1619,93 @@ Vishesh Choudry: State of the Peg
 
 ### Meeting notes 2020-04-10
 
+### Governance Segment
 
+- SCD shutdown 24 April
+
+**Charles St.Louis: Review of MIP3 - Governance Cycle**
+
+Links: 
+- [Blog post](https://forum.makerdao.com/t/announcement-kickstarting-the-self-sustaining-makerdao-initiative/1864)
+- [MIP3 Governance Cycle](https://forum.makerdao.com/t/mip3-governance-cycle/1905)
+- [MIP0 Proposal Framework](https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902)
+
+Dates:
+- : Consultation period
+- May 1-4: voting 
+
+MIP0: Base MIP
+
+MIP3: Governance cycle
+- Monthly
+- Week by week breakdown
+
+![image](makerDAO meetings/Screen Shot 2020-04-10 at 4.29.58 AM.png)
+
+**LongForWisdom: Governance at a Glance**
+
+- Plug-in for signalling 
+
+### Technical Segment
+
+**Wil Barnes: Revisiting GSM Delay & Dark Spell Social Layer Discussion**
+
+*GSM* 
+- delay 4h
+
+*Dark spell social layer*
+- patch a bug without exposing on-chain issue
+- critical bug: at least 10% of collateral value
+- exceptional circumstance use
+- proposed models :
+  - Major MKR Holders model
+  - Independent auditor attestation model
+  - Community appointed trusted party model
+
+**Mariano Conti: Technical Requirements for SCD Shutdown.**
+
+- 3M in migration contract
+- 2 weeks from shutdown
+- migration needs to be drained before shutdown
+
+Ideas:
+
+
+### Risk Segment
+
+**Cyrus Younessi 1: New series of Risk calls next week**
+- Additional Tues & Wed calls 
+- 10 AM PST
+
+**Maker_Man: 0 Bid Vault Auction Modelling**
+
+Link: 
+- https://maker-auctions.io
+
+Summary
+- liquidation data against scenarios
+- scenario analysis
+- compensation of vault holders
+- liquidation dashboard
+- liquidation report
+
+**Vishesh Choudry: State of the Peg**
+
+- DAI supply: 80M (800K from USDC)
+- Portfolio: ETH price increase. DAI dropped a little
+- DAI peg: consistently at around 1.02
+- Trading volumes: low amounts 
+- Secondary lending: dydx picked up in % of volume traded
+- Correlation ETH-DAI: inverted correlation when ETH goes down. 
+- Uptick in trading and ETH activity
+- collateral ratio: moved distribution up to 300-350 bucket
+
+```
+analysis: DAI going up while ETH goes up? This is unusual!
+```
 
 ---
 
-<a name="risk-meeting-2020-04-10" />
+<a name="risk-meeting-2020-04-16" />
 
-### Meeting notes 2020-04-10
+### Meeting notes 2020-04-16
