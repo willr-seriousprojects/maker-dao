@@ -1706,6 +1706,132 @@ analysis: DAI going up while ETH goes up? This is unusual!
 
 ---
 
+<a name="risk-meeting-2020-04-17" />
+
+### Meeting notes 2020-04-17
+
+### Governance Segment
+
+**Richard Brown: General Q&A**
+
+- Additional governance facilitator
+- [signal](https://forum.makerdao.com/t/its-time-for-a-second-governance-facilitator/1998)
+
+**Long for Wisdom: Governance at a Glance**
+
+- confidence in the peg discussion
+- signal request: delay before shutdown effective?
+
+
+### Risk Segment
+
+**Charles St. Louis: MIP0: The Maker Improvement Proposal Framework**
+
+Links:
+- [MIP0 github](https://github.com/makerdao/mips/blob/master/mip0.md)
+- [MIP0 proposal](https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902)
+- [MIP 13 pillars](https://forum.makerdao.com/t/the-release-of-the-13-initial-maker-improvement-proposals-mips/1915)
+
+Structure of MIPs: 
+- preamble
+- summary
+- components
+
+MIPs Lifecycle
+
+![lifecycle](makerDAO meetings/lifecycle.png)
+
+
+**Vishesh Choudry: State of the Peg**
+
+
+---
+
+<a name="risk-meeting-2020-04-22" />
+
+### Meeting notes 2020-04-22
+
+Link:
+- [State of the Peg article](https://forum.makerdao.com/t/action-required-state-of-the-peg/2025)
+- [Polling proposal](https://vote.makerdao.com/polling-proposal/qmwzwvfdi8qtjh8dkggjpqxysu3qjg2gegpuar2nh7ucer)
+- [DEfi.ai website](https://defi.ai/dai)
+- [Wbtc](https://app.deversifi.com/BTCUSD)
+
+### Agenda
+Let’s have a call to discuss the community’s intentions in light of the recent call to action in the forums.
+
+We’ll discuss:
+
+- Possible collateral additions to increase liquidity
+- Possible scheduling options to implement the new collateral types
+
+
+### Governance Segment
+
+**Richard Brown: Intro**
+- Theme behind: blog post above 
+
+### Risk Segment
+
+**Cyrus Younessi and Team: Rapid Collateral Onboarding Options and other Contingency Plans to restore the peg.**
+
+Options considered: 
+- Link
+- Additional stablecoins
+- Change existing USDC param
+
+Risks: 
+- Rush through onboarding process
+- Diff risks whether existing USDC or new collateral
+- New collateral requires smart contracts and adaptors (technical level)
+
+Most likely (easiest) 
+- Adjusting param of USDC
+- Purpose: DAI peg management
+
+Risks: 
+- counter party risk 
+- liquidation for USDC as disabled in system now! (Cyrus)
+- important consideration: liquidity requirement for assets to be used in auctions (increases slippage risk)
+
+```
+analysis opportunity: impact of not being able to liquidate USDC on Maker (> Probability of Liquidation model)
+```
+
+Other (unorthodox): 
+- TRFM implementation 
+1) gov sets par directly--can be done immediately 
+2) rate update module deployed, gov updates rate directly--1 or 2 weeks 
+3) fully-automated feedback mechanism to set rate--O(months) 
+
+Context: 
+```
+If the dollar is strengthening, a negative target rate on 
+DAI can actually provide a better "value stable" asset--i.e. 
+real purchasing power of DAI is staying closer to constant 
+as dollar purchasing power increases.
+since it is a direct injection.  
+-SF just means people will apply that to fees on loans. 
+Will it cause more people to put collateral in the system. 
+Maybe.  -SF will have to be low because it will look 
+like a +rate on ETH deposits only if DAI is minited.
+```
+
+Primoz analysis on required extra supply 6-10M extra DAI
+- the 6-10M is a rough sum over bids on markets over $1 USD.
+- https://defi.ai/dai indicates amount of dai above peg
+
+```
+analysis: would the bids increase above peg after adding supply (vicious cycle)
+```
+
+Actions: Pools for (and proposal vote)
+- change USDC parameters
+- Addition of LINK
+- Addition of other collateral types 
+
+---
+
 <a name="risk-meeting-2020-04-16" />
 
 ### Meeting notes 2020-04-16
