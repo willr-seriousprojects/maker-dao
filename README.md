@@ -1800,9 +1800,9 @@ analysis opportunity: impact of not being able to liquidate USDC on Maker (> Pro
 
 Other (unorthodox): 
 - TRFM implementation 
-1) gov sets par directly--can be done immediately 
-2) rate update module deployed, gov updates rate directly--1 or 2 weeks 
-3) fully-automated feedback mechanism to set rate--O(months) 
+1) gov sets par directly--can be done immediately
+2) rate update module deployed, gov updates rate directly--1 or 2 weeks
+3) fully-automated feedback mechanism to set rate--O(months)
 
 Context: 
 ```
@@ -1832,6 +1832,609 @@ Actions: Pools for (and proposal vote)
 
 ---
 
-<a name="risk-meeting-2020-04-16" />
+<a name="risk-meeting-2020-05-01" />
 
-### Meeting notes 2020-04-16
+### Meeting notes 2020-05-01
+
+### Governance
+Richard Brown: General Q&A
+
+### Community
+
+**Sam SF structure discussion**
+
+Link: 
+- [Change SF structure](https://forum.makerdao.com/t/discussion-change-the-stability-fee-structure/2258) 
+
+
+**Maker_Man: Black Thursday Compensation Analysis 1 presentation and discussion.**
+
+Link: 
+- [MCD system liquidation & Black thrusday & Compensation](https://forum.makerdao.com/t/maker-mcd-ethereum-system-liquidation-report-and-black-thursday-compensation-analysis/2243)
+- [Report](https://drive.google.com/file/d/1oK3zBVKz-tNVeYU1Pezzu2A-7GQqRMRp/view)
+
+### Risk
+
+**Vishesh Choudry: State of the Peg**
+
+- ETH price increased significantly. DAI tracked a bit lower towards 1$. 
+- But avg DAI still above 1$
+- Re: potentially market makers stocking on inventory, before taking actions
+- DAI to ETH utilisation 99%
+
+---
+
+<a name="risk-meeting-2020-05-15" />
+
+### Meeting notes 2020-05-15
+
+### Governance
+
+**Richard Brown : General Q&A**
+
+**LongForWisdom : Governance at a Glance**
+
+Link: 
+- [Governance of a glance](https://forum.makerdao.com/t/governance-at-a-glance/84)
+
+Highlight topics:
+- Fees for using synthetix; Pros and cons for using 
+- Onchain debt ceiling for PAXG 
+- Change SF structure
+
+### MIPs
+
+**Charles St. Louis 1: MIPs Process Update**
+
+**LongForWisdom: MIPX: Protocol DAI Transfer 2, MIPX: Declarations of Intent 1**
+
+Link: 
+- [MIP DAI Transfer](https://forum.makerdao.com/t/mipx-protocol-dai-transfer/2462)
+
+Protocol DAI Transfer 2: 
+- lets governance to pull DAI from protocol to an ETH address
+- community can potentially self fund for projects
+- future: integration with bank accounts
+
+Collateral onboarding process:
+- domain teams need to provide analysis for each application
+- coordination between domain teams 
+
+### Risk
+
+**Cyrus Younessi : TUSD Collateral Onboarding**
+
+Link: 
+- [TUSDC coll onboarding](https://forum.makerdao.com/t/tusd-proposal-for-collateral-onboarding/2402)
+
+```
+Proposed risk parameters: Stability Fee: 0%, Debt Ceiling: 2 million, Liquidation Ratio: 120
+```
+
+Why USDC?
+- Due to emergency of Black Thurs
+- Significant price drop 
+- DAI liquidity crunch
+- USDC as emergency liquidity option for keeper auctions + Lower DAI premium 
+
+Hard vs soft peg:
+- Hard peg: direct ops and arbitrage
+- Soft peg: indirect ops and arbitrage
+
+Stablecoins specific risks
+- counterparty risk 
+- counterparty risk diversified, but further risk 
+- further analysis: business model, financial analysis
+
+regulatory risk
+- TUSDC operated by ... in Delaware
+- USDC operated by ... in CA
+- state level regulatory risk 
+- FSB report on stablecoins 
+
+Comparison: 
+- Market cap as proxy for supply 
+- USDC and PAX have increased in supply but TUSDC reduced since BT
+
+CEX Trading volume
+- USDC high trading volume
+
+DEX/Non-Custodial Trading volume 
+- medium daily trading volume on Uniswap/Curve, 0x Network, Kyber 
+- Volume of TUSDC very low in comparison to others 
+
+Leverage and lending protocols 
+- TUSDC not a big presence in lending protocols 
+- AAVE and Nuo are the main ones 
+
+Centralised lending services 
+- low volumes on these platforms
+
+Holders structure
+- 0.8% in DeFi applications 
+- 36% deposited on CEX
+
+On-chain figures: 
+- holders per day 
+
+Onchain transaction count
+
+Conclusion: 
+- counterparty risk & regulatory risk diversification
+- Low potential for DAI minting: little DeFi use and supply of TUSD
+
+Recommendations: 
+- consider a debt ceiling allocaiotn to central stablecoins 
+- liquidations should be disabled for intial period. Other parameters equal to USDC
+
+
+Additional USDC type (b-vault): 
+
+**Lucas Vogelsang : ConsolFreight and Paperchain**
+
+- bring real world assets into MCD
+- allow asset originators to tokenise and bring on chain 
+- issue ERC20 that represents claim on collateral 
+- TIN and DROP (insured to losses) tokens 
+- TIN: underwriter token 
+- DROP: less risk of losses 
+
+How real world assets work in maker
+- consolfreight/paperchain: low demand for capital 
+- opportunity for Yield
+- diversification is almost like decentralisation 
+
+Link: 
+- [Calls organised to community](https://forum.makerdao.com/t/collateral-onboarding-call-mips-6-12-discussion-and-review-of-collateral-onboarding-process/2008/13)
+
+- loans to real businesses 
+- is mcd primary or secondary market = MKR has chance to be primary lender
+- rates comparable to trade finance 
+- short term debt is better
+- very illiquid assets 
+- pricing models = net asset value of portfolio
+- price of invoice does not change through the cycle 
+- keepers: diff keepers 
+- loans are legal documents brought on chain as NFT (attested by auditing firm, fraud scoring company, credit scoring information on individual asset > interest rate)
+- calculate net asset value 
+- probability of default 
+- number of 
+
+What would Maker have to do to sell collateral? 
+- need diff keepers 
+- buy a security that represent
+
+- appropriate investors 
+- assets originator has 1 big vault originated. Either everything is liquidated or nothing.
+- keepers play 
+
+
+- b2b invoice spend = default rate less 2% 
+- factoring 
+- fraud risk 
+
+Paperchain: 
+- streaming revenue analytics service for music 
+- how music is performing on spotify
+- collateral: invoice from spotify (factoring)
+
+Consolfreight: 
+- software tech provider
+- coordinate with distributors for shipping 
+- collateral: invoices 
+- 270K DAI in invoices 
+- Redeem token for DAI for investors as yield
+- 2016 digitalisation of freight forwarding views 
+
+
+
+**Vishesh Choudry : State of the Peg**
+
+
+---
+
+<a name="risk-meeting-2020-05-22" />
+
+### Meeting notes 2020-05-22
+
+[Link to meeting](https://youtu.be/Rbd2hDIk7vc)
+
+
+### Governance
+
+**Intro with Rich Brown**
+[youtube](https://youtu.be/Rbd2hDIk7vc)
+
+**Governance at a Glance and SourceCred Trial with LongForWisdom**
+
+Links: 
+- [Sourcecred](https://youtu.be/Rbd2hDIk7vc?t=662)
+
+SourceCred Trial with Dandelion Mane
+- analytics governance solution
+- opensource 
+- uses social graph and positive contributions to reward contributors w/DAI
+- Maker will start an experiment
+
+```
+Opportunity: really cool analytics project!
+```
+
+**Weekly MIPs Update with Charles St. Louis**
+
+**GSM Delay & Dark Spell MIP with Wil Barnes**
+
+
+### Risk
+
+**USDC-B Proposal Overview with Cyrus Younessi**
+
+Links: 
+- [USDC-B proposal](https://forum.makerdao.com/t/usdc-b-proposal-for-collateral-onboarding/2582)
+
+
+**State of the Peg with Vishesh Choudry**
+
+---
+
+<a name="risk-meeting-2020-05-29" />
+
+### Meeting notes 2020-05-29
+
+### Governance
+Richard Brown: General Intros
+
+**LongForWisdom: Governance at a Glance**
+- [Governance at glance](https://forum.makerdao.com/t/discussion-add-on-chain-governance-metadata/2625)
+- [Monetary policy re-setting (Primoz)]()
+- [Quantify stablecoin risk](https://forum.makerdao.com/t/regulatory-recourse-quantifying-centralized-stablecoin-risk/2624)
+- [Rank choice voting](https://forum.makerdao.com/t/business-policy-of-rate-setting/2609)
+- [Frequency of Base Rate change](https://forum.makerdao.com/t/signal-request-change-the-frequency-of-the-base-rate-poll-to-monthly/2613)
+
+### Smart Contracts
+Mariano Conti: Housekeeping
+
+### Oracles
+
+**Nik Kunkel: Oracles and Light feed applications**
+
+Links: 
+- [Oracle v2](https://github.com/makerdao/oracles-v2)
+
+- MIP 10 has been really useful for us 
+- DeFi saver applied for oracle whitelisting > very useful for vault maintainance
+- Feeds: dark feeds (anonymous) and light feeds (khyber, oasis, dydx...)
+- More oracle applications in coming weeks 
+- Each fee: gets paid 1k DAI/month, paid by foundation + gas cost for relayers 
+> some relayers need to be guaranteed uptime 
+> 240-260K a year total cost
+- To whitelist it costs maker nothing
+
+### MIPs
+
+**Charles St. Louis 1: Weekly MIPs Update**
+- governance cycle review (May)
+- amend MIP 6,8,9,10 - MIP + explanation of changes
+> mip 6: domain greemlight of collateral fastracked
+
+MIP process: 
+- request for comment > discussion > governance cycle (monthly) > implementation
+
+Collateral onboarding: 
+- tUSD and USDC-b passed this week 
+
+Community greenlight scoring 
+- score > 0 collateral up for analysis 
+
+Continue the discussion that started last week on the Governance and Risk call regarding the [PC-DROP] and [CF-DROP] application.
+Go through other applications (such as [FIAT]) that are awaiting Domain Team Greenlight.
+
+
+### Risk
+Vishesh Choudry: State of the Peg
+- DAI negative correlation to ETH in normal scenarios 
+- DAI positive correlation to ETH in worrying times 
+- Means leverage behaviour may be restoring. So does confidence
+
+- From WBTC supply big jumps 
+- From USDC supply large refinances from compound 8 may. 
+  - Utilisation rate droped
+- USDC collateral supply pool does not change frequently. "Parked" for use  
+- Liquidation wall at 138 USD is significant   
+
+- Trading volume is lower to historical 
+-
+
+Collateralisaiton ratios: 
+- USDC: most at 120-30, some at 130-150 (why?)
+- WBTC: 250 CR
+
+---
+
+<a name="risk-meeting-2020-06-12" />
+
+### Meeting notes 2020-06-12
+
+### Governance
+
+Links
+- [Forum > why mkr holders not voting](https://forum.makerdao.com/t/why-arent-mkr-holders-voting/301)
+
+**Richard Brown: General Q&A**
+**LongForWisdom: Governance at a Glance**
+@Derek: DS-Chief Upgrades - Postponed
+
+### Oracles
+
+**NikKunkel: Weekly Cycle**
+Links: 
+- [Lightfeed proposal](https://forum.makerdao.com/tag/oracle-lightfeed-sp)
+- [Oracle whitelisting](https://forum.makerdao.com/tag/oracle-whitelist-sp)
+- [Oracle weeekly gvrnance](https://forum.makerdao.com/t/signal-request-temporarily-process-oracle-proposals-through-the-weekly-governance-cycle/2801)
+- [Gitcoing metatransactions](https://medium.com/gitcoin/native-meta-transactions-e509d91a8482)
+
+Items 
+- backlog of oracle proposals
+- MIP10
+- automation services to save vaults from liquidation
+- teams adding lightfeeds (KNC, gitcoin...)
+- looking for new feeds with credible teams
+
+### MIPs
+
+Links: 
+- [MIP14 > DAI Transfer](https://forum.makerdao.com/t/mip14-protocol-dai-transfer/2462)
+
+**Charles St. Louis : Weekly MIPs Update**
+@Gov-Facilitators: Inclusion Review
+
+### Smart Contracts
+
+@Smart-Contracts: TUSD Token Upgrades - Details 2
+
+### Risk
+
+Vishesh Choudry : State of the Peg
+
+---
+
+<a name="risk-meeting-2020-06-19" />
+
+### Meeting notes 2020-06-19
+
+### Governance
+
+Richard Brown: General Q&A
+
+**LongForWisdom: Governance at a Glance**
+
+Link: 
+- [Governance at glance](https://forum.makerdao.com/t/governance-at-a-glance/84)
+- [WBTC cafe](https://wbtc.cafe)
+
+**s_ben: SourceCred Update**
+
+Links: 
+- [makerdao notebook](https://observablehq.com/@sourcecred/makerdao-sourcecred-trial-week-2)
+
+- opensource for reward contributions 
+- distro of 10k DAI according to credscores 
+- by users, by topic, by posts
+- main metric: engagement on forum
+- customisations: incentivise categories or types of posts
+
+Roadmap
+![]()
+![]()
+![]()
+
+### Smart Contracts
+
+Links: 
+- [List of oracle feeds](https://github.com/makerdao/mips/blob/master/MIP10/MIP10c17-List-of-Feeds.md)
+
+**Mariano_Conti: Removing SAI from MCD.**
+
+Links: 
+- [Forum thread](https://forum.makerdao.com/t/removing-sai-from-mcd-completely/2638)
+- [Github spell](https://github.com/makerdao/spells)
+
+### MIPs
+
+**Charles St. Louis : Weekly MIPs Update**
+
+Links: 
+- [mkr poll proposal](https://vote.makerdao.com/polling-proposal/qmtxpw9xlsg1ozyymqxujdfdemn1vd7iacbrykqp9miakq)
+- [MIP roadmap](https://forum.makerdao.com/t/a-liquidation-system-redesign-a-pre-mip-discussion/2790/44)
+
+Links:
+- [Akiva D MIP](https://forum.makerdao.com/t/soft-locks-and-future-guidance-a-pre-mip-discussion/2875/4) 
+
+Predictable financing agreement with makerdao
+
+**Gov-Facilitators: Governance Poll Review**
+
+### Risk
+
+**Vishesh Choudry : State of the Peg**
+
+- DAI supply stagnant from previous week
+- ETH price had a drop with DAI increasing above 1$ (neg corr - normal)
+- if ETH price is uncertain, less appetite for leverage
+- sec lending markets: relationship btw refinancing to/from 
+
+USD-A
+- flat at level of DC
+
+WBTC
+- capped at 10M
+
+ETH: 
+- DC growth trend is sustained despite dips
+
+**Cyrus: WBTC**
+- difficult to quantify risk with WBTC 
+- requires legal analysis
+- if everything wrong: debt ceiling needs to be observed as BAD debt into system
+
+Idea: 
+- Add WBTC with higher liquidation ratio
+- Increase existing WBTC debt ceiling with high SF
+
+```
+wbtc.cafe went live
+```
+
+---
+
+<a name="risk-meeting-2020-07-03" />
+
+### Meeting notes 2020-07-03
+
+### Governance
+
+Richard Brown: General Q&A
+@LongForWisdom: Governance at a Glance
+
+### MIPs
+
+**@LongForWisdom: Weekly MIPs Update (on behalf of @MIP-Editors)**
+
+### Oracles
+
+**@Oracles: Oracle proposals update**
+
+- new lightfeeds: gitcoin, argent...
+- goal: equilibrium btw dark and lightfeeds
+
+### Risk
+
+**Cyrus Younessi: COMP Liquidity Mining Impacts**
+
+Links:
+- [Compound post](https://compound.comradery.io/post/1769)
+- [Compound governance proposal](https://compound.finance/governance/proposals/12)
+
+Background:
+- compound launched COMP
+- token allocated to users. to earn COMP is proportional to % of int paid by users.
+- the higher the int paid the higher the  COMP gained
+- BAT market disrupted due to liquidity/demand for borrowing BAT
+
+Implications: 
+- liquidity risk 
+- new proposal to retify (by Compound):
+  - borrow the most amount of dollar denominated 
+  - therefore pay the lowest amt of interest / high utilisation rate
+  - assets in that "farming" mechanism: DAI or ETH
+
+Consequences: 
+- market impact on that shortage of DAI in market
+
+How to desincentivise DAI:
+- it's cheaper to borrow DAI from Maker than from Compound
+
+Risks:
+- refinancing activities to compound (sourcing DAI on secondary market) if SF dropped in second market 
+- borrowing DAI to put into a DSR outside maker
+
+Mitigation: 
+- increase liquidity/supply of DAI from USDC
+- change USDC param: SF and debt ceiling
+- decrease liquidation ratio
+
+- eth-b creation
+
+Preferences for mitigattion
+- increase debt ceiling 
+- lower liquidation ratio
+
+Polling: 
+- next couple of days = emergency votes for increasing debt ceiling
+- signal request for db
+- signal request for SF
+
+**Vishesh Choudry 1: State of the Peg**
+
+- DAI prices above $1.01
+- liquidity crunch func(x) of COMP activity and ETH down
+- incentive to refinancing. high leverage quickly
+- price can continue to go up
+
+- usdc from dai was maxed out
+- 61M out of 145M DAI in compound
+- 
+
+---
+
+<a name="risk-meeting-2020-07-10" />
+
+### Meeting notes 2020-07-10
+
+### Governance
+
+**Richard Brown: General Q&A**
+
+**@LongForWisdom: Governance at a Glance**
+
+### MIPs
+**Charles St. Louis : Weekly MIPs Update**
+
+**@Gov-Facilitators Submission Review**
+
+### Smart Contracts
+
+**@Mariano_Conti Liquidations 1.1**
+
+Links: 
+- [Liquidations system](https://forum.makerdao.com/t/mip19-liquidations-system-1-1-upgrade/3098)
+
+**@Mariano_Conti TUSD Updates**
+
+**@wouter PSM Advantages and Discussion**
+
+Links: 
+- [Peg stabilisation module](https://forum.makerdao.com/t/peg-stabilization-modules-a-pre-mip-discussion/3045)
+- [PSM discussion](https://forum.makerdao.com/t/forum-poll-deciding-the-peg-stabilization-modules-implementation-timeline/3090)
+
+Goal: 
+- decentralisation by diversification
+Problem: 
+- state of peg struggling
+- lost trust in system
+- DAI users and vault users 
+
+PSM: 
+- Any user can exchange stablecoins for DAI 
+- Any stablecoin possible
+- New and effect tool for monetary policy
+- Low friction arbitrage between DAI and stablecoins
+- Fees may be additional income to protocol
+- Governance to determine the right Risk balance
+
+Similarities vs diff with Vaults: 
+- PSN dont have individual owners. System owns funds
+- Similar to SAI-DAI module (System controlled)
+
+Example:
+- PSN has several stablecoins
+- relatively high fees 
+- buffer to keep peg below fee level
+
+### Oracles
+
+**@NikKunkel New oracle Proposals**
+
+- argent: become lightfeed
+- Kyber: KNC-ETH oracle
+- current: 24 feeds at the moment
+
+- more feeds = more data but more risk
+
+**@NikKunkel Winding Down ETHUSD V1.**
+
+### Risk
+
+**@cyrus COMP impact and response, status update.**
+
+**Vishesh Choudry : State of the Peg**
