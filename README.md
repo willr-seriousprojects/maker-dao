@@ -2380,6 +2380,12 @@ Polling:
 ### MIPs
 **Charles St. Louis : Weekly MIPs Update**
 
+![MIPs](/Users/william/Scio/maker-dao/makerDAO meetings/Screen Shot 2020-07-10 at 4.11.10 AM.png)
+
+![Collateral-onboarding](/Users/william/Scio/maker-dao/makerDAO meetings/Screen Shot 2020-07-10 at 4.13.03 AM.png)
+
+![RFC](/Users/william/Scio/maker-dao/makerDAO meetings/Screen Shot 2020-07-10 at 4.11.16 AM.png)
+
 **@Gov-Facilitators Submission Review**
 
 ### Smart Contracts
