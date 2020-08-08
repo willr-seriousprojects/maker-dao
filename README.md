@@ -2444,3 +2444,77 @@ Example:
 **@cyrus COMP impact and response, status update.**
 
 **Vishesh Choudry : State of the Peg**
+
+---
+
+<a name="risk-meeting-2020-07-17" />
+
+### Forum Recap
+
+**@LongForWisdom: Governance at a Glance**
+
+Links:
+- [Governance at glance](https://forum.makerdao.com/t/governance-at-a-glance/84)
+
+PSM Discussion:
+
+Links:
+-[PSM timeline](https://forum.makerdao.com/t/psm-governance-timeline/3204)
+
+- Poll to include/not PSM
+- 31 July vote to enable PSM
+- Parameters for inclusion:
+  - Debt ceiling
+  - Fee in/out DAI
+  - Token
+
+
+### MIPs
+
+**Charles St. Louis : Weekly MIPs Update**
+
+Links: 
+- []()
+
+@Gov-Facilitators Inclusion Review
+
+### Smart Contracts
+
+**@Smart-Contracts: TUSD Update**
+
+Link:
+- [tUSD collateral](https://forum.makerdao.com/t/tusd-update-forum-poll-concerns-surrounding-the-tusd-collateral-type/3225)
+
+Issues with code
+- functionality to declare deposit address > allows for minting unbacked DAI
+- infiniting minting of tusd > mint unlimited DAI
+- funds would be frozen during any sc upgrade
+
+**@Derek: Governance Chief Contract Redesign**
+
+Link:
+- [Governance Chief Contract Redesign](https://forum.makerdao.com/t/governance-chief-contract-redesign-a-pre-mip-discussion/3080)
+
+**@brianmcmichael : MANA and LEND Evaluation (Smart Contracts)**
+
+Links:
+- [MANA audit](https://blog.openzeppelin.com/decentraland-mana-token-audit-ee56a6bca708)
+- [LEND audit](https://github.com/ETHLend/ICO_SmartContract/blob/master/ETHLend%20Token%20Sale%20Smart%20Contract%20Security%20Audit%20Report.pdf)
+
+MANA: 
+- audit done by openzeppelin 
+- non upgradable
+- current supply is max supply
+
+LEND: 
+- mint functions but only in pre-sale
+- audit done 
+
+### Risk
+
+**Vishesh Choudry : State of the Peg**
+- ETH: significant 100 to 150M supply
+- USDC: also increase 
+- COMP: impacted ecosystem for DAI. Amt of DAI in compound
+  - yields on different assets in compound
+
